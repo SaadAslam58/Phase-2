@@ -14,7 +14,8 @@
       "Bash(ping:*)",
       "Bash(curl:*)",
       "WebSearch",
-      "Bash(\"D:\\\\Programming\\\\Q-4\\\\Hackathon-2\\\\Phase-2\\\\backend\\\\venv\\\\Scripts\\\\python.exe\" -m uvicorn:*)"
+      "Bash(\"D:\\\\Programming\\\\Q-4\\\\Hackathon-2\\\\Phase-2\\\\backend\\\\venv\\\\Scripts\\\\python.exe\" -m uvicorn:*)",
+      "Bash(git add:*)"
     ]
   }
 }
