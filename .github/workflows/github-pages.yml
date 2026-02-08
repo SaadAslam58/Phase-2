@@ -41,8 +41,12 @@ jobs:
     - name: Build for GitHub Pages
       run: |
         cd frontend
-        npm run build
+        NEXT_PUBLIC_API_BASE_URL=https://saad58-phase-2.hf.space npm run build
         # Static export will be handled by the build process due to output: 'export' in next.config.ts
+      env:
+        NEXT_PUBLIC_API_BASE_URL: https://saad58-phase-2.hf.space
+        NEXT_PUBLIC_BETTER_AUTH_URL: https://saadaslam58.github.io/Phase-2
+        NEXT_PUBLIC_APP_NAME: Todo Dashboard
 
     - name: Setup Pages
       uses: actions/configure-pages@v4
