@@ -15,7 +15,11 @@
       "Bash(curl:*)",
       "WebSearch",
       "Bash(\"D:\\\\Programming\\\\Q-4\\\\Hackathon-2\\\\Phase-2\\\\backend\\\\venv\\\\Scripts\\\\python.exe\" -m uvicorn:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd GitHub Pages deployment workflow for Next.js frontend\n\n- Configure next.config.ts for static export\n- Add GitHub Actions workflow for deployment to GitHub Pages\n- Enable static export with trailing slashes and unoptimized images\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push:*)",
+      "Bash(git remote remove:*)",
+      "Bash(git init:*)"
     ]
   }
 }
